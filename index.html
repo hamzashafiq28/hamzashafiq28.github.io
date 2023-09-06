@@ -177,6 +177,59 @@ A Novel Image colorization method designed to colorize old photographs.
             </td>
           </tr>
 
+
+
+
+
+    <tr onmouseout="color_stop()" onmouseover="color_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='color_image'>
+                  <img src='images/color_after.jpg' width="160"></div>
+                <img src='images/color_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function color_start() {
+                  document.getElementById('color_image').style.opacity = "1";
+                }
+
+                function color_stop() {
+                  document.getElementById('color_image').style.opacity = "0";
+                }
+                color_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>An image colorization method using a transformer</papertitle>
+              </a>
+              <br>
+              <a href="https://hamzashafiq.github.io">Hamza Shafiq</a>,
+
+              <a href="https://sites.google.com/view/miplab-chosun/mips-lab-in-chosun-university">Bumshik Lee</a>,
+
+              <br>
+              <em> Proceedings of KICS Summer Conference 2023</em>, 2023
+              <br>
+              !--<a href="https://journal-home.s3.ap-northeast-2.amazonaws.com/site/2023s/abs/0915-AYLRY.pdf">project page</a>
+              <!--<a href="https://markboss.me/publication/2022-samurai/">project page</a> /
+              <a href="https://www.youtube.com/watch?v=LlYuGDjXp-8">video</a> /
+              <a href="https://arxiv.org/abs/2205.15768">arXiv</a> -->
+              <p></p>
+              <p>
+Image colorization is the process of assigning colors to a grayscale or black-and-white image. Traditional image colorization methods are often limited in their ability to produce realistic and accurate colorizations. Transformer based image colorization methods are a new approach that has the potential to achieve even better results than  traditional methods. Transformer-based methods are able to learn long-range dependencies in the input image, which allows them to generate more accurate colorizations. This study demonstrates the effectiveness of transformer-based approaches for image colorization through experiments and discusses future directions.
+              </p>
+            </td>
+          </tr>
+
+
+
+
+
+
+
+
+
      <tr onmouseout="colorgan_stop()" onmouseover="colorgan_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
