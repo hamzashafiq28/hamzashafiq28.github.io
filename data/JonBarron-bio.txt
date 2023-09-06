@@ -1,9 +1,7 @@
-Jon Barron is a senior staff research scientist at Google Research in San
-Francisco, where he works on computer vision and machine learning. He received
-a PhD in Computer Science from the University of California, Berkeley in 2013,
-where he was advised by Jitendra Malik, and he received a Honours BSc in
-Computer Science from the University of Toronto in 2007. He received a National
-Science Foundation Graduate Research Fellowship in 2009, the C.V. Ramamoorthy
-Distinguished Research Award in 2013, the PAMI Young Researcher Award in 2020.
-His works have received awards at ECCV 2016, TPAMI 2016, ECCV 2020, ICCV 2021, 
-CVPR 2022, and the Communications of the ACM (2022).
+I am a graduate student at Chosun University and a dedicated research assistant at the MIP Lab. My passion lies in the realms of computer vision and machine learning, where I strive to make a meaningful impact.
+
+Currently, I am immersed in the captivating world of colorizing legacy photos under the expert guidance of Prof. Bumshik Lee at the MIP Lab. My work extends to restoring old images, encompassing brightness enhancement, super-resolution, and colorization.
+
+My academic journey began at UET Lahore, where I had the privilege of being advised by Zain Murtaza. During my undergraduate years, I received the highest GPA scholarship and was honored with the Best Semester Project Award. My final year project, fully funded by Ignite, marked the beginning of my journey into the fascinating world of technology and image restoration.
+
+LinkedIn: https://www.linkedin.com/in/hamza-shafiq-82a004159/
