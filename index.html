@@ -181,6 +181,60 @@ A Novel Image colorization method designed to colorize old photographs.
 
 
 
+
+
+     <tr onmouseout="colorf_stop()" onmouseover="colorf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='colorf_image'>
+                  <img src='images/colorf_after.jpg' width="160"></div>
+                <img src='images/colorf_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function colorf_start() {
+                  document.getElementById('colorf_image').style.opacity = "1";
+                }
+
+                function colorf_stop() {
+                  document.getElementById('colorf_image').style.opacity = "0";
+                }
+                colorf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Image Colorization using Color-Features and Adversarial Learning</papertitle>
+              </a>
+              <br>
+              <a href="https://hamzashafiq.github.io">Hamza Shafiq</a>,
+
+              <a href="https://sites.google.com/view/miplab-chosun/mips-lab-in-chosun-university">Bumshik Lee</a>,
+
+              <br>
+              <em> Proceedings of KIIS Autumn Conference 2022 Vol. 32, No. 2</em>, 2022
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/10323489">Paper</a>
+              <!--<a href="https://markboss.me/publication/2022-samurai/">project page</a> /
+              <a href="https://www.youtube.com/watch?v=LlYuGDjXp-8">video</a> /
+              <a href="https://arxiv.org/abs/2205.15768">arXiv</a> -->
+              <p></p>
+              <p>
+In this study, we introduce an innovative image colorization method that not only improves color accuracy and realism but also addresses common issues found in existing methods, such as desaturation and color bleeding. Our proposed method features a novel component called the Color Encoder, which extracts intrinsic color features. Moreover, the proposed Color Encoder aligns essential color features systematically, drawn from a random normal distribution, with real colors. These aligned features are fused at the bottleneck and serve as the foundation for subsequent colorization. Complementing the Color Encoder is our Color Loss mechanism, which aims to align the extracted features from the Color Encoder with the ground-truth color features, enhancing overall color representation accuracy. We also employ a Conditional Wasserstein Generative Adversarial Network (CWGAN) architecture within the framework of a Generative Adversarial Network (GAN) to improve adversarial training and colorization accuracy. To enhance feature representation, we incorporate an attention mechanism at the bottleneck of each encoder layer, further refining our model’s ability to capture essential image details. Experimental results show that our approach significantly outperforms other state-of-the-art methods in terms of both realism and precision, striking a well-balanced performance.
+
+              </p>
+            </td>
+          </tr>
+
+
+
+
+
+
+
+
+
+
+
     <tr onmouseout="color_stop()" onmouseover="color_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -271,6 +325,16 @@ We propose an adversarial learning based approach for diverse image colorization
               </p>
             </td>
           </tr>
+
+
+
+
+
+
+
+
+
+
 
        <!--   <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
           <td style="padding:20px;width:25%;vertical-align:middle">
